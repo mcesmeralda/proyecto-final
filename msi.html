@@ -1,0 +1,254 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Grupo1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logoo.png" type="image/x-icon">
+    <!-- kit de fontawesome -->
+    <script src="https://kit.fontawesome.com/952509c1de.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- menu y logo -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 bg-light" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logoo.png" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav justify-content-end mx-auto me-2">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cotizar.html">Cotizar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marcas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="samsung.html">Samsung</a></li>
+                            <li><a class="dropdown-item" href="logitech.html">Logitech</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+                            <li><a class="dropdown-item" href="Asus.html">Asus</a></li>
+                            <li><a class="dropdown-item" href="msihtml">Msi</a></li>
+                            <li><a class="dropdown-item" href="Aorus.html">Aorus</a></li>
+                            <li><a class="dropdown-item" href="coolermaster.html">Coolermaster</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <!-- rede -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+                    </li>           
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img class="carrito"  src="img/shopp.png"   heralt="carrito" width="34px"></a>
+                    </li>            
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <!-- slider -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/mssi.jpeg" class="d-block w-100" alt="..." >
+          </div>
+ 
+        </div>
+      </div>
+      <!-- novedade-noticias -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
+        <h1 class="titulo">Ofertas</h1>
+        <div class="col">
+            <div class="card">
+                <img src="img/LAPT_.jpg" class="card-img-top" alt="..." width="2222222%">
+                <div class="card-body">
+                    <h5 class="card-title">Portatil Msi</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p> -->
+                    <a href="#" class="btn btn-primary buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+      
+
+    <div class="col">
+        <div class="card">
+            <img src="img/D.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Board Msi</h5>
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p> -->
+                <a href="#" class="btn btn-primary buy">Comprar</a>
+            </div>
+        </div>
+    </div>
+    
+
+        <div class="col">
+            <div class="card">
+                <img src="img/M.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mouse Msi</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                        content.</p> -->
+                    <a href="#" class="btn btn-primary buy">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+   <!-- servicios -->
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-lg-start my-5 icono-wrap">
+                <img src="img/apoyo-tecnico.png" alt="" class="services">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Ayuda</h3>
+                <p class="px-4">Preguntas Frecuentes, Políticas de Cambios , Devoluciones y
+                    Solicitud de garantías</p>
+            </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-12 d-flex justify-content-lg-start my-5 icono-wrap">
+            <img src="img/digital.png" alt="" class="services">
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Tecnologia</h3>
+            <p class="px-4">SVT tiene un catálogo variado de productos con la más alta tecnología.</p>
+        </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-12 d-flex justify-content-lg-start my-5 icono-wrap">
+            <img src="img/orden-de-compra.png" alt="" class="services">
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Compra Segura</h3>
+            <p class="px-4">COMPRA online rápido 100% seguro en tu TIENDA en linea SVT</p>
+        </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-12 d-flex justify-content-lg-start my-5 icono-wrap">
+            <img src="img/servicio-al-cliente.png" alt="Soporte Tecnico" class="services">
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Soporte Tecnico</h3>
+            <p class="px-4">Las opciones de soporte se basan en tu plan y estarán disponibles cuando inicies sesión.</p>
+        </div>
+        </div>
+    </div>
+    
+    </section>
+ <!-- footer con metodologia BEM-->
+ <footer id="page-footer">
+    <div class="footer__cta">
+        <div class="footer__cta-ftcontainer">
+            <h2 class="cta__txt">¿Preguntas?, Estamos aquí para ayudar</h2>
+            <div class="cta__ftrow">
+                <a href="https://wa.me/3004605179" class="cta__btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ftcontainer">
+        <div class="footer__menu">
+            <figure>
+                <img src="img/logoo.png" alt="" class="footer__logo" width="200">
+            </figure>
+            <p class="ft-social-row">
+                <a href="https://wa.me/3004605179" class="ft-social" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com" class="ft-social" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com" class="ft-social" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com" class="ft-social" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
+        </div>
+         <!-- horarios de atencion -->
+         <div class="footer__menu">
+            <h4 class="footer__title">Horario</h4>
+            <span class="footer__info">
+                Lunes a Viernes: 8:00 am a 7:00 pm | Sabados: 8:00 am a 2:00 pm 
+            </span>
+         </div>
+         <!-- mapa del sitio o links -->
+         <div class="footer__menu">
+            <h4 class="footer__title">
+                Mapa del Sitio
+            </h4>
+            <ul class="ft-link">
+                <li class="footer__link">
+                    <a href="nosotros.html" target="_blank" class="ft-social" >Nosotros</a>
+                </li>
+                <li class="footer__link">
+                    <a href="samsung.html" target="_blank" class="ft-social" >Samsung</a>
+                </li>
+                <li class="footer__link">
+                    <a href="logitech.html" target="_blank" class="ft-social" >Logitech</a>
+                </li>
+                <li class="footer__link">
+                    <a href="condiciones.html" target="_blank" class="ft-social" >Terminos y Condiciones</a>
+                </li>
+            </ul>
+         </div>
+         <!-- contacto -->
+        <div class="footer__menu">
+            <h4 class="footer__title">Contactos</h4>
+            <p class="footer__info">
+                <i class="fa fa-envelope"></i>
+                Email: emontoya.joma@gmail.com
+            </p>
+            <p class="footer__info">
+                <i class="fa fa-phone"></i>
+                Phone: 6779913
+            </p>
+            <p class="footer__info">
+                <i class="fa fa-map-marker-alt"></i>
+                Address: mz13 casa 23
+            </p>
+        </div>
+        </div>
+    
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+</html>
